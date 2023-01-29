@@ -5,7 +5,7 @@
 
 Se trata de uma calculadora, com o objetivo de executar operações simples de adição, subtração, multiplicação e divisão.
 <br>
-<a href="">Clique aqui para ver o projeto</a>
+<a href="https://pedroaugustom.github.io/Calculadora/">Clique aqui para ver o projeto</a>
 
 ## Tecnologias
 
