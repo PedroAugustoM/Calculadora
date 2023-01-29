@@ -1,5 +1,7 @@
 <h1 align="center">Calculator</h1>
 
+<br>
+
 ## Projeto
 
 Se trata de uma calculadora, com o objetivo de executar operações simples de adição, subtração, multiplicação e divisão.
