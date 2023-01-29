@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pedro Augusto">
+    <meta name="description" content="Calculadora">
+
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="background">
+        <div class="calculator">
+            <h1>Calculadora</h1>
+            <p id="result"></p>
+            <table>
+                <tr>
+                    <td><button class="button" onclick="clean()"><img src="./images/icons8-c-50.png" alt=""></button></td>
+                    <td><button class="button" onclick="back()"><img src="./images/backspace (1).png" alt=""></button></td>
+                    <td><button class="button" onclick="insert('/')"><img src="./images/icons8-dividisão-30.png" alt=""></button></td>
+                    <td><button class="button" onclick="insert('*')"><img src="./images/icons8-multiplicação-30.png" alt=""></button></td>
+                </tr>
+    
+                <tr>
+                    <td><button class="button" onclick="insert('7')">7</button></td>
+                    <td><button class="button" onclick="insert('8')">8</button></td>
+                    <td><button class="button" onclick="insert('9')">9</button></td>
+                    <td><button class="button" onclick="insert('-')"><img src="./images/icons8-subtração-30.png" alt=""></button></td>
+                </tr>
+    
+                <tr>
+                    <td><button class="button" onclick="insert('4')">4</button></td>
+                    <td><button class="button" onclick="insert('5')">5</button></td>
+                    <td><button class="button" onclick="insert('6')">6</button></td>
+                    <td><button class="button" onclick="insert('+')"><img src="./images/icons8-soma-30.png" alt=""></button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="insert('1')">1</button></td>
+                    <td><button class="button" onclick="insert('2')">2</button></td>
+                    <td><button class="button" onclick="insert('3')">3</button></td>
+                    <td rowspan="2" class="button"><button class="button" style="height: 120px;" onclick="calcular()"><img src="./images/icons8-sinal-de-igual-30.png" alt=""></button></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="button" onclick="insert('0')"><button class="button" style="width: 120px;">0</button></td>
+                    <td><button class="button" onclick="insert('.')">.</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
